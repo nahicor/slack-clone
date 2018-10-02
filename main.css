@@ -1,0 +1,82 @@
+/* reset */
+body {
+    margin: 100px;
+}
+
+/* typography */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 95px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+/* components */
+
+.button{
+    background-color: #3f46ad;
+    color: white;
+    border-radius: 6px;
+    padding: 50px;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* layout */
+
+nav{
+    display:flex;
+    align-content: space-between;
+
+}
+
+.logo {
+    width: 125px;
+    float: left;
+}
+
+.menu {
+    float: right;
+    width: 75px;
+}
+
+/* section 1 */
+
+img {
+    width: 100%;
+}
+
+.sign-in {
+    text-align: center;
+
+}
+
+/* section 2 */
+
+.features {
+    padding-top: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.icon {
+    width: 216px;
+
+}
+.feature-title {
+    font-weight: 500;
+}
